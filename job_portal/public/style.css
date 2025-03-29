@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 15px; /* Increased padding for better spacing */
+    text-align: center;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 600px; /* Center the main content */
+    margin: auto; /* Center the main content */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin-top: 20px; /* Space above footer */
+}
+
+form {
+    max-width: 400px; /* Set max width for the form */
+    margin: auto; /* Center the form on the page */
+    padding: 20px; /* Add padding around the form */
+    background-color: #fff; /* Set background color */
+    border-radius: 8px; /* Round the corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+form label {
+    display: block; /* Stack labels on top of inputs */
+    margin-bottom: 5px; /* Add space below each label */
+}
+
+form input,
+form select {
+    width: 100%; /* Full width for inputs and selects */
+    padding: 10px; /* Padding inside inputs and selects */
+    margin-bottom: 15px; /* Space between inputs/selects */
+    border: 1px solid #ccc; /* Border for inputs/selects */
+    border-radius: 4px; /* Rounded corners for inputs/selects */
+}
+
+form button {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px; /* Padding inside button */
+    border: none; /* No border for button */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 10px; /* Add margin above the button */
+}
+
+form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.notification {
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 4px;
+    display: none; /* Hidden by default */
+}
+
+.notification.success {
+    background-color: #d4edda; /* Light green */
+    color: #155724; /* Dark green */
+    border: 1px solid #c3e6cb; /* Green border */
+}
+
+.notification.error {
+    background-color: #f8d7da; /* Light red */
+    color: #721c24; /* Dark red */
+    border: 1px solid #f5c6cb; /* Red border */
+}
+form {
+    max-width: 400px; /* Set max width for the form */
+    margin: auto; /* Center the form on the page */
+    padding: 20px; /* Add padding around the form */
+    background-color: #fff; /* Set background color */
+    border-radius: 8px; /* Round the corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    margin-bottom: 30px; /* Add space below the search form */
+}
